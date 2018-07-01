@@ -45,7 +45,7 @@ Copy `Sources/MockImagePicker.swift` and [`MiniLayout.swift`](https://github.com
 
 [https://github.com/yonat/MockImagePicker](https://github.com/yonat/MockImagePicker)
 
-[swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-4.1-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE.txt
