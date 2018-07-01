@@ -56,6 +56,7 @@ open class MockImagePicker: UINavigationController {
 
     open override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .black
         isNavigationBarHidden = true
         viewControllers = [mockCamera]
     }
