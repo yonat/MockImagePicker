@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B109518176F951C7E7D95283 /* Pods_MockImagePickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */; };
+		DC3AD03B20E8CE9C000CD58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AD03A20E8CE9C000CD58E /* AppDelegate.swift */; };
+		DC3AD03D20E8CE9C000CD58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AD03C20E8CE9C000CD58E /* ViewController.swift */; };
+		DC3AD04020E8CE9C000CD58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3AD03E20E8CE9C000CD58E /* Main.storyboard */; };
+		DC3AD04220E8CE9C000CD58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3AD04120E8CE9C000CD58E /* Assets.xcassets */; };
+		DC3AD04520E8CE9C000CD58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3AD04320E8CE9C000CD58E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockImagePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E15A889F84D3578C715D77E /* Pods-MockImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockImagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC3AD03720E8CE9C000CD58E /* MockImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3AD03A20E8CE9C000CD58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC3AD03C20E8CE9C000CD58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC3AD03F20E8CE9C000CD58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3AD04120E8CE9C000CD58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3AD04420E8CE9C000CD58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3AD04620E8CE9C000CD58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3AD04D20E8F770000CD58E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC3AD04E20E8F770000CD58E /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
+		DC3AD04F20E8F7BD000CD58E /* MockImagePicker.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MockImagePicker.podspec; path = ../MockImagePicker.podspec; sourceTree = "<group>"; };
+		DE9FE25BA2F290C7B473B2CF /* Pods-MockImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockImagePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3AD03420E8CE9B000CD58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B109518176F951C7E7D95283 /* Pods_MockImagePickerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF5A121BAE437E6E8B7AF75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B84DC3CD34938F05148B5AC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E15A889F84D3578C715D77E /* Pods-MockImagePickerDemo.debug.xcconfig */,
+				DE9FE25BA2F290C7B473B2CF /* Pods-MockImagePickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC3AD02E20E8CE9B000CD58E = {
+			isa = PBXGroup;
+			children = (
+				DC3AD04D20E8F770000CD58E /* README.md */,
+				DC3AD04E20E8F770000CD58E /* CHANGELOG.md */,
+				DC3AD04F20E8F7BD000CD58E /* MockImagePicker.podspec */,
+				DC3AD03920E8CE9C000CD58E /* MockImagePickerDemo */,
+				DC3AD03820E8CE9C000CD58E /* Products */,
+				B84DC3CD34938F05148B5AC4 /* Pods */,
+				5DF5A121BAE437E6E8B7AF75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3AD03820E8CE9C000CD58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3AD03720E8CE9C000CD58E /* MockImagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3AD03920E8CE9C000CD58E /* MockImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC3AD03A20E8CE9C000CD58E /* AppDelegate.swift */,
+				DC3AD03C20E8CE9C000CD58E /* ViewController.swift */,
+				DC3AD03E20E8CE9C000CD58E /* Main.storyboard */,
+				DC3AD04120E8CE9C000CD58E /* Assets.xcassets */,
+				DC3AD04320E8CE9C000CD58E /* LaunchScreen.storyboard */,
+				DC3AD04620E8CE9C000CD58E /* Info.plist */,
+			);
+			path = MockImagePickerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3AD03620E8CE9B000CD58E /* MockImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3AD04920E8CE9C000CD58E /* Build configuration list for PBXNativeTarget "MockImagePickerDemo" */;
+			buildPhases = (
+				702EC20A29174AC435969F1B /* [CP] Check Pods Manifest.lock */,
+				F146D9E9D42477E3CAC7B323 /* [CP-User] SwiftFormat */,
+				DC3AD03320E8CE9B000CD58E /* Sources */,
+				DC3AD03420E8CE9B000CD58E /* Frameworks */,
+				DC3AD03520E8CE9B000CD58E /* Resources */,
+				41F72A326027F39FB3D5B331 /* [CP] Embed Pods Frameworks */,
+				CA39C4B68E40B30F58602211 /* [CP-User] SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockImagePickerDemo;
+			productName = MockImagePickerDemo;
+			productReference = DC3AD03720E8CE9C000CD58E /* MockImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3AD02F20E8CE9B000CD58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Yonat Sharon";
+				TargetAttributes = {
+					DC3AD03620E8CE9B000CD58E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DC3AD03220E8CE9B000CD58E /* Build configuration list for PBXProject "MockImagePickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3AD02E20E8CE9B000CD58E;
+			productRefGroup = DC3AD03820E8CE9C000CD58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3AD03620E8CE9B000CD58E /* MockImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3AD03520E8CE9B000CD58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3AD04520E8CE9C000CD58E /* LaunchScreen.storyboard in Resources */,
+				DC3AD04220E8CE9C000CD58E /* Assets.xcassets in Resources */,
+				DC3AD04020E8CE9C000CD58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41F72A326027F39FB3D5B331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MockImagePicker/MockImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MockImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		702EC20A29174AC435969F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockImagePickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA39C4B68E40B30F58602211 /* [CP-User] SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\t\tif which swiftlint >/dev/null; then\n\t\t\tswiftlint autocorrect --config \"${SRCROOT}/../Sources/.swiftlint.yml\"\n\t\t\tswiftlint lint --config \"${SRCROOT}/../Sources/.swiftlint.yml\"\n\t\t\tcd \"${SRCROOT}/../Sources\"\n\t\t\tswiftlint autocorrect\n\t\t\tswiftlint\n\t\telse\n\t\t  echo \"warning: SwiftLint not installed, execute 'brew install swiftlint'\"\n\t\tfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F146D9E9D42477E3CAC7B323 /* [CP-User] SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] SwiftFormat";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\t\tif which swiftformat >/dev/null; then\n\t\t  swiftformat --commas always --disable unusedArguments comments \"${SRCROOT}/../Sources\"\n\t\t  swiftformat --commas always --disable unusedArguments comments \"${SRCROOT}\"\n\t\telse\n\t\t  echo \"warning: SwiftFormat not installed, execute 'brew install swiftformat'\"\n\t\tfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3AD03320E8CE9B000CD58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3AD03D20E8CE9C000CD58E /* ViewController.swift in Sources */,
+				DC3AD03B20E8CE9C000CD58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC3AD03E20E8CE9C000CD58E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3AD03F20E8CE9C000CD58E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3AD04320E8CE9C000CD58E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3AD04420E8CE9C000CD58E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3AD04720E8CE9C000CD58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC3AD04820E8CE9C000CD58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3AD04A20E8CE9C000CD58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E15A889F84D3578C715D77E /* Pods-MockImagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MockImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC3AD04B20E8CE9C000CD58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9FE25BA2F290C7B473B2CF /* Pods-MockImagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MockImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3AD03220E8CE9B000CD58E /* Build configuration list for PBXProject "MockImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3AD04720E8CE9C000CD58E /* Debug */,
+				DC3AD04820E8CE9C000CD58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3AD04920E8CE9C000CD58E /* Build configuration list for PBXNativeTarget "MockImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3AD04A20E8CE9C000CD58E /* Debug */,
+				DC3AD04B20E8CE9C000CD58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3AD02F20E8CE9B000CD58E /* Project object */;
+}

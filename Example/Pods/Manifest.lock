@@ -1,0 +1,23 @@
+PODS:
+  - MiniLayout (1.2.1)
+  - MockImagePicker (1.0.0):
+    - MiniLayout
+
+DEPENDENCIES:
+  - MockImagePicker (from `..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MiniLayout
+
+EXTERNAL SOURCES:
+  MockImagePicker:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  MiniLayout: 9ee6ff0d73c1c2af09251e062e9b45d012e446fb
+  MockImagePicker: 9b540295034ad5b23bd2bdc2f431673de211ea21
+
+PODFILE CHECKSUM: 7e349170a745d79208103279ae9e86293b14593e
+
+COCOAPODS: 1.5.3
