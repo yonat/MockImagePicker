@@ -30,3 +30,6 @@ end
 target 'MockImagePickerDemo' do
     scripts
 end
+
+target 'MockImagePickerDemoUITests' do
+end

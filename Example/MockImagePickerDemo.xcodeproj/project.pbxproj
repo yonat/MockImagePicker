@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03373C90BC789BFE859D907 /* Pods_MockImagePickerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1C7603B1B401D8667B249D /* Pods_MockImagePickerDemoUITests.framework */; };
 		B109518176F951C7E7D95283 /* Pods_MockImagePickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */; };
+		DC11B9FC20ECD3FC007766AE /* MockImagePickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11B9FB20ECD3FC007766AE /* MockImagePickerDemoUITests.swift */; };
 		DC3AD03B20E8CE9C000CD58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AD03A20E8CE9C000CD58E /* AppDelegate.swift */; };
 		DC3AD03D20E8CE9C000CD58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3AD03C20E8CE9C000CD58E /* ViewController.swift */; };
 		DC3AD04020E8CE9C000CD58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3AD03E20E8CE9C000CD58E /* Main.storyboard */; };
@@ -15,9 +17,25 @@
 		DC3AD04520E8CE9C000CD58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3AD04320E8CE9C000CD58E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DC11B9FE20ECD3FC007766AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3AD02F20E8CE9B000CD58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3AD03620E8CE9B000CD58E;
+			remoteInfo = MockImagePickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		4C1A5A10C522A3BF74807128 /* Pods-MockImagePickerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockImagePickerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E04106E82A0FC2EE8C7CCDE /* Pods-MockImagePickerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockImagePickerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockImagePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E15A889F84D3578C715D77E /* Pods-MockImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockImagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE1C7603B1B401D8667B249D /* Pods_MockImagePickerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockImagePickerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC11B9F920ECD3FC007766AE /* MockImagePickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockImagePickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC11B9FB20ECD3FC007766AE /* MockImagePickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImagePickerDemoUITests.swift; sourceTree = "<group>"; };
+		DC11B9FD20ECD3FC007766AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC3AD03720E8CE9C000CD58E /* MockImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3AD03A20E8CE9C000CD58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3AD03C20E8CE9C000CD58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +50,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC11B9F620ECD3FC007766AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03373C90BC789BFE859D907 /* Pods_MockImagePickerDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC3AD03420E8CE9B000CD58E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				751E69A8B6B6E35253DF950B /* Pods_MockImagePickerDemo.framework */,
+				BE1C7603B1B401D8667B249D /* Pods_MockImagePickerDemoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,8 +83,19 @@
 			children = (
 				8E15A889F84D3578C715D77E /* Pods-MockImagePickerDemo.debug.xcconfig */,
 				DE9FE25BA2F290C7B473B2CF /* Pods-MockImagePickerDemo.release.xcconfig */,
+				6E04106E82A0FC2EE8C7CCDE /* Pods-MockImagePickerDemoUITests.debug.xcconfig */,
+				4C1A5A10C522A3BF74807128 /* Pods-MockImagePickerDemoUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC11B9FA20ECD3FC007766AE /* MockImagePickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC11B9FB20ECD3FC007766AE /* MockImagePickerDemoUITests.swift */,
+				DC11B9FD20ECD3FC007766AE /* Info.plist */,
+			);
+			path = MockImagePickerDemoUITests;
 			sourceTree = "<group>";
 		};
 		DC3AD02E20E8CE9B000CD58E = {
@@ -67,6 +105,7 @@
 				DC3AD04E20E8F770000CD58E /* CHANGELOG.md */,
 				DC3AD04F20E8F7BD000CD58E /* MockImagePicker.podspec */,
 				DC3AD03920E8CE9C000CD58E /* MockImagePickerDemo */,
+				DC11B9FA20ECD3FC007766AE /* MockImagePickerDemoUITests */,
 				DC3AD03820E8CE9C000CD58E /* Products */,
 				B84DC3CD34938F05148B5AC4 /* Pods */,
 				5DF5A121BAE437E6E8B7AF75 /* Frameworks */,
@@ -77,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				DC3AD03720E8CE9C000CD58E /* MockImagePickerDemo.app */,
+				DC11B9F920ECD3FC007766AE /* MockImagePickerDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +137,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DC11B9F820ECD3FC007766AE /* MockImagePickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC11BA0220ECD3FC007766AE /* Build configuration list for PBXNativeTarget "MockImagePickerDemoUITests" */;
+			buildPhases = (
+				A86F1DD4B4C83C62DE5FDB82 /* [CP] Check Pods Manifest.lock */,
+				DC11B9F520ECD3FC007766AE /* Sources */,
+				DC11B9F620ECD3FC007766AE /* Frameworks */,
+				DC11B9F720ECD3FC007766AE /* Resources */,
+				BDD1E6991DB53727BC11DD69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC11B9FF20ECD3FC007766AE /* PBXTargetDependency */,
+			);
+			name = MockImagePickerDemoUITests;
+			productName = MockImagePickerDemoUITests;
+			productReference = DC11B9F920ECD3FC007766AE /* MockImagePickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		DC3AD03620E8CE9B000CD58E /* MockImagePickerDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC3AD04920E8CE9C000CD58E /* Build configuration list for PBXNativeTarget "MockImagePickerDemo" */;
@@ -128,6 +188,10 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Yonat Sharon";
 				TargetAttributes = {
+					DC11B9F820ECD3FC007766AE = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DC3AD03620E8CE9B000CD58E;
+					};
 					DC3AD03620E8CE9B000CD58E = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -147,11 +211,19 @@
 			projectRoot = "";
 			targets = (
 				DC3AD03620E8CE9B000CD58E /* MockImagePickerDemo */,
+				DC11B9F820ECD3FC007766AE /* MockImagePickerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC11B9F720ECD3FC007766AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC3AD03520E8CE9B000CD58E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +275,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A86F1DD4B4C83C62DE5FDB82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockImagePickerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD1E6991DB53727BC11DD69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MockImagePicker/MockImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MiniLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MockImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CA39C4B68E40B30F58602211 /* [CP-User] SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +346,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC11B9F520ECD3FC007766AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC11B9FC20ECD3FC007766AE /* MockImagePickerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC3AD03320E8CE9B000CD58E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +364,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC11B9FF20ECD3FC007766AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3AD03620E8CE9B000CD58E /* MockImagePickerDemo */;
+			targetProxy = DC11B9FE20ECD3FC007766AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DC3AD03E20E8CE9C000CD58E /* Main.storyboard */ = {
@@ -267,6 +393,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DC11BA0020ECD3FC007766AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E04106E82A0FC2EE8C7CCDE /* Pods-MockImagePickerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockImagePickerDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockImagePickerDemo;
+			};
+			name = Debug;
+		};
+		DC11BA0120ECD3FC007766AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1A5A10C522A3BF74807128 /* Pods-MockImagePickerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MockImagePickerDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockImagePickerDemo;
+			};
+			name = Release;
+		};
 		DC3AD04720E8CE9C000CD58E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -389,10 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MockImagePickerDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -408,10 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MockImagePickerDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roysharon.MockImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -422,6 +574,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC11BA0220ECD3FC007766AE /* Build configuration list for PBXNativeTarget "MockImagePickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC11BA0020ECD3FC007766AE /* Debug */,
+				DC11BA0120ECD3FC007766AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DC3AD03220E8CE9B000CD58E /* Build configuration list for PBXProject "MockImagePickerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
