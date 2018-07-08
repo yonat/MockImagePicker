@@ -6,16 +6,17 @@
 //  Copyright © 2018 Yonat Sharon. All rights reserved.
 //
 
-import MockImagePicker
+#if targetEnvironment(simulator)
+    import MockImagePicker
+    typealias UIImagePickerController = MockImagePicker
+    typealias UIImagePickerControllerDelegate = MockImagePickerDelegate
+#endif
+
 import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBAction func showMockCamera() {
-        #if targetEnvironment(simulator)
-            let picker = MockImagePicker()
-        #else
-            let picker = UIImagePickerController()
-        #endif
+        let picker = UIImagePickerController()
         picker.sourceType = .camera
         picker.delegate = self
         present(picker, animated: true)

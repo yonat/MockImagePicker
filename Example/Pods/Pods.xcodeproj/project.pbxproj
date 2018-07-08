@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,11 +66,11 @@
 		01E42A9C120970906E86BEBE47A66FC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03294939AF8AD6D0065FDF6C143D7051 /* Pods-MockImagePickerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MockImagePickerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		094629652FE580D5A286ABD4396FFD36 /* Pods-MockImagePickerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MockImagePickerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		0A227779B92407D20A2F85C23251EFE1 /* MockImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MockImagePicker.framework; path = MockImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A227779B92407D20A2F85C23251EFE1 /* MockImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23DDEA697BC8B48776DC5A8D1B9E2CE4 /* Pods-MockImagePickerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MockImagePickerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		35D68B517C042E857BFB72AAA56C67A0 /* MockImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MockImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		35D68B517C042E857BFB72AAA56C67A0 /* MockImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MockImagePicker.podspec; sourceTree = "<group>"; };
 		3A23A33E6ADF0D221AE3A4F03A74BCD6 /* MockImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MockImagePicker-dummy.m"; sourceTree = "<group>"; };
-		3F4C4114CBFCE5CCC0467A410342B9B6 /* MiniLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MiniLayout.framework; path = MiniLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4C4114CBFCE5CCC0467A410342B9B6 /* MiniLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiniLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE37DE1D84D63406C3F3279D550F1BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50871A2D57387BB7E7C66B2FAEBAC9A2 /* Pods-MockImagePickerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MockImagePickerDemo-dummy.m"; sourceTree = "<group>"; };
 		517F8189F12A8593292A80BEEF113509 /* Pods-MockImagePickerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MockImagePickerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -81,19 +81,19 @@
 		673433FA2DD8239DC9340079BC6924FA /* Pods-MockImagePickerDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MockImagePickerDemoUITests-resources.sh"; sourceTree = "<group>"; };
 		6B1EDD20368E50CE9CF026AB28308A17 /* MiniLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MiniLayout-prefix.pch"; sourceTree = "<group>"; };
 		6B76D6B25A7E19AD34712E87C3B1BE9A /* Pods-MockImagePickerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MockImagePickerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6F14496DE42E5226BD8DAE1F77347CBC /* Pods_MockImagePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MockImagePickerDemo.framework; path = "Pods-MockImagePickerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F14496DE42E5226BD8DAE1F77347CBC /* Pods_MockImagePickerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockImagePickerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C27E637B70AF7BFFFC8AD580EF5C8D /* Pods-MockImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MockImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		775A41E5219B09CEE6C5D63B351FE2DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D7FCCD8FAAE1ABF4ABAFFEC7362B91 /* Pods-MockImagePickerDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MockImagePickerDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		86FFCD1EC5EBA00CDC7178F2956D65F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CF0E56CC82E5DADD1943A0EA987066B /* Pods-MockImagePickerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MockImagePickerDemo-resources.sh"; sourceTree = "<group>"; };
 		90525E6B0BF7EA6EEAFFBCB8B263615D /* MiniLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MiniLayout.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95BDDE4ACA492F643E206CAF3E0C05CF /* Pods-MockImagePickerDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MockImagePickerDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		9AFFA3FCB2033544D07597D48710F5DD /* Pods_MockImagePickerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MockImagePickerDemoUITests.framework; path = "Pods-MockImagePickerDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B610C28526F988AF1C456CCFEDF982C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9AFFA3FCB2033544D07597D48710F5DD /* Pods_MockImagePickerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockImagePickerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B610C28526F988AF1C456CCFEDF982C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A281B411D6A124A82E6DBD31A6E0596D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A40727A6A43B320F97E0BAE8BEFBAF6C /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		A40727A6A43B320F97E0BAE8BEFBAF6C /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		A605E7332B830C2CDF6D2D54D8E590E8 /* MiniLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MiniLayout.modulemap; sourceTree = "<group>"; };
 		AB5BBF2F37341D9B5A355C634A58D0C3 /* MockImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MockImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		C25B7BCCEE6DB3B1EEC395ADFF948404 /* MockImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MockImagePicker.xcconfig; sourceTree = "<group>"; };
@@ -152,7 +152,6 @@
 				57F983D76A7560C52549F1E16C3713C9 /* MiniLayout.swift */,
 				413AE9689066C943BE449B0F01BD7BF9 /* Support Files */,
 			);
-			name = MiniLayout;
 			path = MiniLayout;
 			sourceTree = "<group>";
 		};

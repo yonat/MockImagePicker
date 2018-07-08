@@ -13,13 +13,10 @@ Mock UIImagePickerController for use in simulator.
 
 ```swift
 #if targetEnvironment(simulator)
-    let picker = MockImagePicker()
-#else
-    let picker = UIImagePickerController()
+    import MockImagePicker
+    typealias UIImagePickerController = MockImagePicker
+    typealias UIImagePickerControllerDelegate = MockImagePickerDelegate
 #endif
-picker.sourceType = .camera
-picker.delegate = self
-present(picker, animated: true)
 ```
 
 ## Requirements

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MockImagePicker"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "Mock UIImagePickerController for use in simulator."
 
   s.homepage     = "https://github.com/yonat/MockImagePicker"

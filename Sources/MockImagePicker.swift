@@ -10,6 +10,11 @@ import MiniLayout
 import MobileCoreServices
 import UIKit
 
+@objc public protocol MockImagePickerDelegate {
+    @objc optional func imagePickerController(_ picker: MockImagePicker, didFinishPickingMediaWithInfo info: [String: Any])
+    @objc optional func imagePickerControllerDidCancel(_ picker: MockImagePicker)
+}
+
 open class MockImagePicker: UINavigationController {
     open class func availableMediaTypes(for sourceType: UIImagePickerControllerSourceType) -> [String]? {
         return []
@@ -44,12 +49,12 @@ open class MockImagePicker: UINavigationController {
         } else {
             info = [:]
         }
-        (delegate as? UIImagePickerControllerDelegate)?.imagePickerController?(UIImagePickerController(), didFinishPickingMediaWithInfo: info)
+        (delegate as? MockImagePickerDelegate)?.imagePickerController?(self, didFinishPickingMediaWithInfo: info)
     }
 
     @objc open func cancel() {
         mockCamera.showsCameraControls = false
-        (delegate as? UIImagePickerControllerDelegate)?.imagePickerControllerDidCancel?(UIImagePickerController())
+        (delegate as? MockImagePickerDelegate)?.imagePickerControllerDidCancel?(self)
     }
 
     lazy var mockCamera = MockCameraViewController(owner: self)
