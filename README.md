@@ -1,6 +1,6 @@
 # MockImagePicker
 <img align="right" src="Screenshots/MockImagePicker.png">
-Mock UIImagePickerController for use in simulator.
+Mock UIImagePickerController to simulate the camera in iOS simulator.
 
 [![Swift Version][swift-image]][swift-url]
 [![Build Status][travis-image]][travis-url]
@@ -35,6 +35,10 @@ pod 'MockImagePicker'
 ### Manually:
 
 Copy `Sources/MockImagePicker.swift` and [`MiniLayout.swift`](https://github.com/yonat/MiniLayout) to your Xcode project.
+
+## TODO
+
+- [ ] implement `cameraOverlayView`
 
 ## Meta
 
