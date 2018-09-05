@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MockImagePicker"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "Mock UIImagePickerController to simulate the camera in iOS simulator."
 
   s.homepage     = "https://github.com/yonat/MockImagePicker"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author             = { "Yonat Sharon" => "yonat@ootips.org" }
   s.social_media_url   = "http://twitter.com/yonatsharon"
 
-  s.swift_version = '4.0'
+  s.swift_version = '4.2'
   s.platform     = :ios, "9.3"
   s.requires_arc = true
 

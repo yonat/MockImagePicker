@@ -7,9 +7,9 @@
 //
 
 #if targetEnvironment(simulator)
-    import MockImagePicker
-    typealias UIImagePickerController = MockImagePicker
-    typealias UIImagePickerControllerDelegate = MockImagePickerDelegate
+import MockImagePicker
+typealias UIImagePickerController = MockImagePicker
+typealias UIImagePickerControllerDelegate = MockImagePickerDelegate
 #endif
 
 import UIKit
@@ -22,9 +22,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(picker, animated: true)
     }
 
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String: Any]) {
-        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            print("got image 🖼 with png size=" + (UIImagePNGRepresentation(image)?.count.description ?? "unknown"))
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
+        if let image = info[.originalImage] as? UIImage {
+            print("got image 🖼 with png size=" + (image.pngData()?.count.description ?? "unknown"))
         } else {
             print("no image 😕")
         }

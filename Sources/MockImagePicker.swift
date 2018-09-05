@@ -11,25 +11,27 @@ import MobileCoreServices
 import UIKit
 
 @objc public protocol MockImagePickerDelegate {
-    @objc optional func imagePickerController(_ picker: MockImagePicker, didFinishPickingMediaWithInfo info: [String: Any])
+    @objc optional func imagePickerController(_ picker: MockImagePicker, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any])
     @objc optional func imagePickerControllerDidCancel(_ picker: MockImagePicker)
 }
 
 open class MockImagePicker: UINavigationController {
-    open class func availableMediaTypes(for sourceType: UIImagePickerControllerSourceType) -> [String]? {
+    public typealias InfoKey = UIImagePickerController.InfoKey
+
+    open class func availableMediaTypes(for sourceType: UIImagePickerController.SourceType) -> [String]? {
         return []
     }
 
-    open class func isSourceTypeAvailable(_ sourceType: UIImagePickerControllerSourceType) -> Bool {
+    open class func isSourceTypeAvailable(_ sourceType: UIImagePickerController.SourceType) -> Bool {
         return sourceType == .camera ? true : false
     }
 
-    open class func isCameraDeviceAvailable(_ cameraDevice: UIImagePickerControllerCameraDevice) -> Bool {
+    open class func isCameraDeviceAvailable(_ cameraDevice: UIImagePickerController.CameraDevice) -> Bool {
         return true
     }
 
-    open var cameraDevice: UIImagePickerControllerCameraDevice = .rear
-    open var sourceType: UIImagePickerControllerSourceType = .camera
+    open var cameraDevice: UIImagePickerController.CameraDevice = .rear
+    open var sourceType: UIImagePickerController.SourceType = .camera
     open var mediaTypes: [String] = [kUTTypeImage as String]
     open var allowsEditing: Bool = true
     open var showsCameraControls: Bool {
@@ -43,9 +45,9 @@ open class MockImagePicker: UINavigationController {
 
     @objc open func takePicture() {
         mockCamera.showsCameraControls = false
-        let info: [String: Any]
+        let info: [UIImagePickerController.InfoKey: Any]
         if let image = mockCamera.imageView.image {
-            info = [UIImagePickerControllerOriginalImage: image]
+            info = [.originalImage: image]
         } else {
             info = [:]
         }

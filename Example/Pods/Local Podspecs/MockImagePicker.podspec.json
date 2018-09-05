@@ -1,7 +1,7 @@
 {
   "name": "MockImagePicker",
-  "version": "1.0.1",
-  "summary": "Mock UIImagePickerController for use in simulator.",
+  "version": "1.2.0",
+  "summary": "Mock UIImagePickerController to simulate the camera in iOS simulator.",
   "homepage": "https://github.com/yonat/MockImagePicker",
   "screenshots": "https://raw.githubusercontent.com/yonat/MockImagePicker/master/Screenshots/MockImagePicker.png",
   "license": {
@@ -12,14 +12,14 @@
     "Yonat Sharon": "yonat@ootips.org"
   },
   "social_media_url": "http://twitter.com/yonatsharon",
-  "swift_version": "4.0",
+  "swift_version": "4.2",
   "platforms": {
     "ios": "9.3"
   },
   "requires_arc": true,
   "source": {
     "git": "https://github.com/yonat/MockImagePicker.git",
-    "tag": "1.0.1"
+    "tag": "1.2.0"
   },
   "source_files": "Sources/*.swift",
   "dependencies": {

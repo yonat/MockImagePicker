@@ -1,6 +1,6 @@
 PODS:
-  - MiniLayout (1.2.1)
-  - MockImagePicker (1.0.1):
+  - MiniLayout (1.3.0)
+  - MockImagePicker (1.2.0):
     - MiniLayout
 
 DEPENDENCIES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  MiniLayout: 9ee6ff0d73c1c2af09251e062e9b45d012e446fb
-  MockImagePicker: 4acf514271ec0c5020dafe46f64d4bd1fd6687f6
+  MiniLayout: 57c42e7e44cb47a9ef95650970ee1d2718725518
+  MockImagePicker: d903f00794add0b6f0ec70e23af960c2307d37a4
 
-PODFILE CHECKSUM: bd49fab393c72948cef6b78d82d794669db6622a
+PODFILE CHECKSUM: d3fdf5a4c9c14c21b06386eff969f69da1ddd6d7
 
 COCOAPODS: 1.5.3

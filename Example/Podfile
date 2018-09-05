@@ -7,8 +7,8 @@ pod 'MockImagePicker', :path => '..'
 def scripts
 	script_phase :name => 'SwiftFormat', :execution_position => :before_compile, :script => <<-eos
 		if which swiftformat >/dev/null; then
-		  swiftformat --commas always --disable unusedArguments comments "${SRCROOT}/../Sources"
-		  swiftformat --commas always --disable unusedArguments comments "${SRCROOT}"
+		  swiftformat --config "${SRCROOT}/.swiftformat" "${SRCROOT}/../Sources"
+		  swiftformat "${SRCROOT}"
 		else
 		  echo "warning: SwiftFormat not installed, execute 'brew install swiftformat'"
 		fi

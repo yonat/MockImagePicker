@@ -32,6 +32,12 @@ Mock UIImagePickerController to simulate the camera in iOS simulator.
 pod 'MockImagePicker'
 ```
 
+Legacy versions:
+
+| Swift version | MockImagePicker version |
+| :---: | :---: |
+| 4.1 | 1.1.0 |
+
 ### Manually:
 
 Copy `Sources/MockImagePicker.swift` and [`MiniLayout.swift`](https://github.com/yonat/MiniLayout) to your Xcode project.
@@ -46,7 +52,7 @@ Copy `Sources/MockImagePicker.swift` and [`MiniLayout.swift`](https://github.com
 
 [https://github.com/yonat/MockImagePicker](https://github.com/yonat/MockImagePicker)
 
-[swift-image]:https://img.shields.io/badge/swift-4.1-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-4.2-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE.txt
