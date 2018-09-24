@@ -36,7 +36,7 @@ Legacy versions:
 
 | Swift version | MockImagePicker version |
 | :---: | :---: |
-| 4.1 | 1.1.0 |
+| 4.1 (Xcode 9.4) | `pod 'MockImagePicker', '~> 1.1.0'` |
 
 ### Manually:
 
