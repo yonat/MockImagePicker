@@ -35,8 +35,8 @@ pod 'MockImagePicker'
 Legacy versions:
 
 | Swift version | MockImagePicker version |
-| :---: | :---: |
-| 4.1 (Xcode 9.4) | `pod 'MockImagePicker', '~> 1.1.0'` |
+| :---: | :--- |
+| 4.1 (Xcode 9.4) | `pod 'MiniLayout', '~> 1.2.1'`<br>`pod 'MockImagePicker', '~> 1.1.0'` |
 
 ### Manually:
 
