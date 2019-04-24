@@ -6,6 +6,7 @@
 //  Copyright © 2018 Yonat Sharon. All rights reserved.
 //
 
+// swiftlint:disable all
 import XCTest
 
 class MockImagePickerDemoUITests: XCTestCase {

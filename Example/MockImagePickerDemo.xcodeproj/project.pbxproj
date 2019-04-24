@@ -146,6 +146,7 @@
 				DC11B9F620ECD3FC007766AE /* Frameworks */,
 				DC11B9F720ECD3FC007766AE /* Resources */,
 				BDD1E6991DB53727BC11DD69 /* [CP] Embed Pods Frameworks */,
+				15348DB8FB6DCF2C2948CEBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,11 +164,13 @@
 			buildPhases = (
 				702EC20A29174AC435969F1B /* [CP] Check Pods Manifest.lock */,
 				F146D9E9D42477E3CAC7B323 /* [CP-User] SwiftFormat */,
+				F6415AE393008075D9F91F60 /* [CP-User] SwiftLintAutocorrect */,
 				DC3AD03320E8CE9B000CD58E /* Sources */,
 				DC3AD03420E8CE9B000CD58E /* Frameworks */,
 				DC3AD03520E8CE9B000CD58E /* Resources */,
 				41F72A326027F39FB3D5B331 /* [CP] Embed Pods Frameworks */,
 				CA39C4B68E40B30F58602211 /* [CP-User] SwiftLint */,
+				0CE5B2C6EF418CD5C46DEECF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,13 +240,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CE5B2C6EF418CD5C46DEECF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-resources.sh",
+				"${PODS_ROOT}/SwiftQuality/.swiftformat",
+				"${PODS_ROOT}/SwiftQuality/.swiftlint.yml",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/.swiftformat",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/.swiftlint.yml",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15348DB8FB6DCF2C2948CEBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-resources.sh",
+				"${PODS_ROOT}/SwiftQuality/.swiftformat",
+				"${PODS_ROOT}/SwiftQuality/.swiftlint.yml",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/.swiftformat",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/.swiftlint.yml",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		41F72A326027F39FB3D5B331 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/MockImagePicker/MockImagePicker.framework",
 			);
@@ -254,7 +305,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemo/Pods-MockImagePickerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		702EC20A29174AC435969F1B /* [CP] Check Pods Manifest.lock */ = {
@@ -299,7 +350,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MiniLayout/MiniLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/MockImagePicker/MockImagePicker.framework",
 			);
@@ -310,7 +361,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockImagePickerDemoUITests/Pods-MockImagePickerDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CA39C4B68E40B30F58602211 /* [CP-User] SwiftLint */ = {
@@ -325,7 +376,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\t\tif which swiftlint >/dev/null; then\n\t\t\tswiftlint autocorrect --config \"${SRCROOT}/../Sources/.swiftlint.yml\"\n\t\t\tswiftlint lint --config \"${SRCROOT}/../Sources/.swiftlint.yml\"\n\t\t\tcd \"${SRCROOT}/../Sources\"\n\t\t\tswiftlint autocorrect\n\t\t\tswiftlint\n\t\telse\n\t\t  echo \"warning: SwiftLint not installed, execute 'brew install swiftlint'\"\n\t\tfi\n";
+			shellScript = "if [ \"Debug\" == \"${CONFIGURATION}\" ]; then ${PODS_ROOT}/SwiftLint/swiftlint --config ${PODS_ROOT}/SwiftQuality/.swiftlint.yml --path ${SRCROOT}/.. ; fi";
 			showEnvVarsInLog = 0;
 		};
 		F146D9E9D42477E3CAC7B323 /* [CP-User] SwiftFormat */ = {
@@ -340,7 +391,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\t\tif which swiftformat >/dev/null; then\n\t\t  swiftformat --config \"${SRCROOT}/.swiftformat\" \"${SRCROOT}/../Sources\"\n\t\t  swiftformat \"${SRCROOT}\"\n\t\telse\n\t\t  echo \"warning: SwiftFormat not installed, execute 'brew install swiftformat'\"\n\t\tfi\n";
+			shellScript = "if [ \"Debug\" == \"${CONFIGURATION}\" ]; then ${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat --swiftversion ${SWIFT_VERSION} --config ${PODS_ROOT}/SwiftQuality/.swiftformat ${SRCROOT}/.. ; fi";
+			showEnvVarsInLog = 0;
+		};
+		F6415AE393008075D9F91F60 /* [CP-User] SwiftLintAutocorrect */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] SwiftLintAutocorrect";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"Debug\" == \"${CONFIGURATION}\" ]; then ${PODS_ROOT}/SwiftLint/swiftlint autocorrect --config ${PODS_ROOT}/SwiftQuality/.swiftlint.yml --path ${SRCROOT}/.. ; fi";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
