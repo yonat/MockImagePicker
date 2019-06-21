@@ -1,6 +1,0 @@
-framework module MockImagePicker {
-  umbrella header "MockImagePicker-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -97,6 +97,8 @@ class MockCameraViewController: UIViewController {
         imageView.image = UIImage.random()
 
         view.addConstrainedSubview(takePictureButton, constrain: .centerX, .bottomMargin)
+        takePictureButton.layoutMargins = .zero
+        // swiftlint:disable:next numbers_smell
         let takePhotoSymbol = NSAttributedString(string: "◉", attributes: [.font: UIFont.systemFont(ofSize: 64), .foregroundColor: UIColor.white])
         takePictureButton.setAttributedTitle(takePhotoSymbol, for: .normal)
         takePictureButton.addTarget(owner, action: #selector(MockImagePicker.takePicture), for: .touchUpInside)
