@@ -6,8 +6,8 @@
 //  Copyright © 2018 Yonat Sharon. All rights reserved.
 //
 
-import MiniLayout
 import MobileCoreServices
+import SweeterSwift
 import UIKit
 
 @objc public protocol MockImagePickerDelegate {

@@ -1,7 +1,7 @@
 PODS:
-  - MiniLayout (1.4.2)
-  - MockImagePicker (1.2.0):
-    - MiniLayout
+  - MockImagePicker (1.2.1):
+    - SweeterSwift
+  - SweeterSwift (1.0.0)
   - SwiftFormat/CLI (0.40.9)
   - SwiftLint (0.33.0)
   - SwiftQuality (1.0.2):
@@ -10,17 +10,19 @@ PODS:
 
 DEPENDENCIES:
   - MockImagePicker (from `..`)
+  - SweeterSwift (from `~/src/github/SweeterSwift`)
   - SwiftQuality (from `https://github.com/yonat/SwiftQuality`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - MiniLayout
     - SwiftFormat
     - SwiftLint
 
 EXTERNAL SOURCES:
   MockImagePicker:
     :path: ".."
+  SweeterSwift:
+    :path: "~/src/github/SweeterSwift"
   SwiftQuality:
     :git: https://github.com/yonat/SwiftQuality
 
@@ -30,12 +32,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yonat/SwiftQuality
 
 SPEC CHECKSUMS:
-  MiniLayout: f819ad87432712e6b2596081a62e633a4961bfc6
-  MockImagePicker: c0c1e618635323e82ec8efa3b75a7ba0ad970914
+  MockImagePicker: f5524d06e15ba26384b6519120e3737e5a569108
+  SweeterSwift: 9a8fb372f55c4e378c06ec89729b0725de06a241
   SwiftFormat: 6b67b6e7fe73d664f0cbb4f13721f130462c86a5
   SwiftLint: fed9c66336e41fc74dc48a73678380718f0c8b0e
   SwiftQuality: 9dddd6752df12ae7ed3b1eed24b6fc42d75724cf
 
-PODFILE CHECKSUM: 3e6619221731741b98661b3d9d718130641392e6
+PODFILE CHECKSUM: 6464ea3ac93b563c110cb4c140d4aaacf44db1e9
 
 COCOAPODS: 1.7.2
