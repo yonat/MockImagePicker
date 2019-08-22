@@ -31,6 +31,7 @@ class MockImagePickerDemoUITests: XCTestCase {
         XCTAssert(app.images.count > 0)
 
         app.buttons["◉"].tap()
+        sleep(1)
         XCTAssert(app.images.count == 0)
     }
 }
