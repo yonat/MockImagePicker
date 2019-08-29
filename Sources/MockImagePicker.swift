@@ -67,6 +67,16 @@ open class MockImagePicker: UINavigationController {
         isNavigationBarHidden = true
         viewControllers = [mockCamera]
     }
+
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        modalPresentationStyle = .fullScreen
+    }
+
+    public init() {
+        super.init(nibName: nil, bundle: nil)
+        modalPresentationStyle = .fullScreen
+    }
 }
 
 class MockCameraViewController: UIViewController {
