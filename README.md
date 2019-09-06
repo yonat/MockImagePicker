@@ -38,9 +38,13 @@ Legacy versions:
 | :---: | :--- |
 | 4.1 (Xcode 9.4) | `pod 'MiniLayout', '~> 1.2.1'`<br>`pod 'MockImagePicker', '~> 1.1.0'` |
 
-### Manually:
+### Swift Package Manager:
 
-Copy `Sources/MockImagePicker.swift` and [`MiniLayout.swift`](https://github.com/yonat/MiniLayout) to your Xcode project.
+```swift
+dependencies: [
+    .package(url: "https://github.com/yonat/MockImagePicker", from: "1.2.3")
+]
+```
 
 ## TODO
 
