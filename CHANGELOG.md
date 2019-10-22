@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - present fullScreen on iOS 13.
+- make all public methods available form Objective-C.
 
 ## [1.2.3] - 2019-08-22
 

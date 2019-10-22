@@ -18,23 +18,23 @@ import UIKit
 open class MockImagePicker: UINavigationController {
     public typealias InfoKey = UIImagePickerController.InfoKey
 
-    open class func availableMediaTypes(for sourceType: UIImagePickerController.SourceType) -> [String]? {
+    @objc open class func availableMediaTypes(for sourceType: UIImagePickerController.SourceType) -> [String]? {
         return []
     }
 
-    open class func isSourceTypeAvailable(_ sourceType: UIImagePickerController.SourceType) -> Bool {
+    @objc open class func isSourceTypeAvailable(_ sourceType: UIImagePickerController.SourceType) -> Bool {
         return sourceType == .camera ? true : false
     }
 
-    open class func isCameraDeviceAvailable(_ cameraDevice: UIImagePickerController.CameraDevice) -> Bool {
+    @objc open class func isCameraDeviceAvailable(_ cameraDevice: UIImagePickerController.CameraDevice) -> Bool {
         return true
     }
 
-    open var cameraDevice: UIImagePickerController.CameraDevice = .rear
-    open var sourceType: UIImagePickerController.SourceType = .camera
-    open var mediaTypes: [String] = [kUTTypeImage as String]
-    open var allowsEditing: Bool = true
-    open var showsCameraControls: Bool {
+    @objc open var cameraDevice: UIImagePickerController.CameraDevice = .rear
+    @objc open var sourceType: UIImagePickerController.SourceType = .camera
+    @objc open var mediaTypes: [String] = [kUTTypeImage as String]
+    @objc open var allowsEditing: Bool = true
+    @objc open var showsCameraControls: Bool {
         get {
             return mockCamera.showsCameraControls
         }
