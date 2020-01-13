@@ -17,6 +17,7 @@ import UIKit
 
 open class MockImagePicker: UINavigationController {
     public typealias InfoKey = UIImagePickerController.InfoKey
+    public typealias CameraFlashMode = UIImagePickerController.CameraFlashMode
 
     @objc open class func availableMediaTypes(for sourceType: UIImagePickerController.SourceType) -> [String]? {
         return []
@@ -33,6 +34,7 @@ open class MockImagePicker: UINavigationController {
     @objc open var cameraDevice: UIImagePickerController.CameraDevice = .rear
     @objc open var sourceType: UIImagePickerController.SourceType = .camera
     @objc open var mediaTypes: [String] = [kUTTypeImage as String]
+    @objc open var cameraFlashMode = CameraFlashMode.auto
     @objc open var allowsEditing: Bool = true
     @objc open var showsCameraControls: Bool {
         get {
