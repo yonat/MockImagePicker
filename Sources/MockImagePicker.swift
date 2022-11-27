@@ -35,7 +35,7 @@ open class MockImagePicker: UINavigationController {
     @objc open var sourceType: UIImagePickerController.SourceType = .camera
     @objc open var mediaTypes: [String] = [kUTTypeImage as String]
     @objc open var cameraFlashMode = CameraFlashMode.auto
-    @objc open var allowsEditing: Bool = true
+    @objc open var allowsEditing = true
     @objc open var showsCameraControls: Bool {
         get {
             return mockCamera.showsCameraControls
@@ -63,7 +63,7 @@ open class MockImagePicker: UINavigationController {
 
     lazy var mockCamera = MockCameraViewController(owner: self)
 
-    open override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .black
         isNavigationBarHidden = true
@@ -86,7 +86,7 @@ class MockCameraViewController: UIViewController {
     let cancelButton = UIButton()
     let takePictureButton = UIButton()
 
-    var showsCameraControls: Bool = true {
+    var showsCameraControls = true {
         didSet {
             for control in [cancelButton, takePictureButton] {
                 control.isHidden = !showsCameraControls
@@ -101,12 +101,17 @@ class MockCameraViewController: UIViewController {
         self.owner = owner
     }
 
-    open override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         view.addConstrainedSubview(imageView, constrain: .top, .bottom, .right, .left)
         imageView.contentMode = .scaleAspectFit
-        imageView.image = UIImage.random()
+        DispatchQueue.global().async {
+            let randomImage = UIImage.random()
+            DispatchQueue.main.async { [weak self] in
+                self?.imageView.image = randomImage
+            }
+        }
 
         view.addConstrainedSubview(takePictureButton, constrain: .centerX, .bottomMargin)
         takePictureButton.layoutMargins = .zero
