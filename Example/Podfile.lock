@@ -1,12 +1,12 @@
 PODS:
-  - MockImagePicker (1.2.5):
+  - MockImagePicker (1.2.6):
     - SweeterSwift
-  - SweeterSwift (1.2.1)
-  - SwiftFormat/CLI (0.50.4)
-  - SwiftLint (0.50.1)
-  - SwiftQuality (2.0.0):
-    - SwiftFormat/CLI (= 0.50.4)
-    - SwiftLint (= 0.50.1)
+  - SweeterSwift (1.2.2)
+  - SwiftFormat/CLI (0.50.7)
+  - SwiftLint (0.50.3)
+  - SwiftQuality (2.0.1):
+    - SwiftFormat/CLI (= 0.50.7)
+    - SwiftLint (= 0.50.3)
 
 DEPENDENCIES:
   - MockImagePicker (from `..`)
@@ -26,16 +26,16 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SwiftQuality:
-    :commit: 582b3b25e5faf8227cfe1c3ba4bd556f76c8cf65
+    :commit: f192ce833f082501a51269c1cb08cf6cf01fa3a3
     :git: https://github.com/yonat/SwiftQuality
 
 SPEC CHECKSUMS:
-  MockImagePicker: 4d387ddb6471347d522080caefd650a88a523a0c
-  SweeterSwift: 61baeda1c0c27d1dc57c8112c3d6a82e5aff3139
-  SwiftFormat: 42b2e7e390bffa30ea7a9f2dd8c8872d37f6a093
-  SwiftLint: 6b0cf1f4d619808dbc16e4fab064ce6fc79f090b
-  SwiftQuality: 890e271defff439147373b686a9261dbc1f0c7f6
+  MockImagePicker: c06b6ba492dd9456704b9f81b0312c14612aad5e
+  SweeterSwift: a875c6c0242ed0fb5f7859bf9832fd3648c3822f
+  SwiftFormat: 4fcf72ee44c7198255108c22ed7135c38a36ba6b
+  SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
+  SwiftQuality: 8d69820e0f82a25563c3cb33d31b0a11f124ea0c
 
-PODFILE CHECKSUM: f68fba57ca3c732120b486b4c458ecc51eed110d
+PODFILE CHECKSUM: 1c2a49e073f8344bdb36137ab8641dcf391918b7
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
